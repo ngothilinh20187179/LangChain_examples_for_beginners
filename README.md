@@ -6,7 +6,7 @@
     + uv add python-dotenv
     + uv add langchain
 
-- Use LangSmith to tracing
+- Use LangSmith to trace
     + Sign up https://www.langchain.com/langsmith
     + Generate API key (in Set up tracing)
     + Paste info to .env 
@@ -20,4 +20,11 @@
     + uv add langchain-openai
     + uv add langchain-ollama
 - Download ollama and pull model: https://ollama.com/
-- Past api's informations to .env (endpoint, key, name, deploy-name, version,...)
+- Paste api's informations into .env (endpoint, key, name, deploy-name, version,...)
+
+1. ReAct Agent: 
+search_agent: use tavily search tool and use prompt template of LangSmith's hub
+    - Install tavily or other web search engines (DuckDuckGo,...)
+        + uv add langchain-tavily
+        + uv add langchain_community
+    - Create API Key (https://app.tavily.com/home) and paste it into .env (TAVILY_API_KEY)
