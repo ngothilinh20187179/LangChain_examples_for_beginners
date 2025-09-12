@@ -15,7 +15,7 @@
         LANGSMITH_API_KEY=<your-api-key>
         LANGSMITH_PROJECT=<your-pj-name>
 
-0. Summary text
+0. Summary text: use model from openai or ollama, use LangSmith to trace
 - Install:
     + uv add langchain-openai
     + uv add langchain-ollama
