@@ -9,6 +9,8 @@ dependencies = [
     "langchain-community>=0.3.29",
     "langchain-ollama>=0.3.7",
     "langchain-openai>=0.3.32",
+    "langchain-pinecone>=0.2.12",
     "langchain-tavily>=0.2.11",
+    "langchainhub>=0.1.21",
     "python-dotenv>=1.1.1",
 ]

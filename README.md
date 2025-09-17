@@ -29,3 +29,17 @@
         + uv add langchain-tavily
         + uv add langchain_community
     - Create API Key (https://app.tavily.com/home) and paste it into .env (TAVILY_API_KEY)
+
+2. RAG: ingest text document and retrieve
+- Install pinecone, langchainhub
+    + uv add langchain-pinecone 
+    + uv add langchainhub
+- Set up vectorstore pinecone
+    + Sign up pinecone : https://app.pinecone.io/
+    + Create new pinecone index (use model text-embedding-3-small)
+    + Create new pinecone api key
+    + Copy & Paste into env: PINECONE_INDEX_NAME, PINECONE_API_KEY
+- Create new api for embedding use azureopenai(optional)
+    + https://ai.azure.com/
+    + Use model: text-embedding-3-small
+    + Copy keys and paste into .env (endpoint, key, name, deploy-name, version,...)
